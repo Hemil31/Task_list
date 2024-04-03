@@ -18,6 +18,10 @@ Route::get('/', function () {
     return redirect('index');
 });
 
+Route::get('/hemal', function () {
+    return redirect('index');
+});
+
 
 Route::fallback(function () {
     return "404 Not Found";
